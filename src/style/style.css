@@ -1,0 +1,66 @@
+
+.addBox{
+    padding: 20px;
+    border-radius: 5px;
+    margin: 60px 0 20px;
+}
+#inputBox{
+padding: 15px;
+width: 30vw;
+background: none;
+border: none;
+color:#292e4e;
+text-align: left;
+}
+#plus{
+    margin-left: -2px;
+    margin-top: 2px;
+    color:#292e4e ;
+}
+
+/*****task****/
+.taskBox,.addBox{
+    display: flex;
+    justify-content: space-between;
+    width: 36vw; 
+    height: 4vw;
+    color: #292e4e;
+    border-bottom:#bebebe solid 2px;
+    padding: 5px;
+    background-color:rgb(255, 255, 255,0.9);
+    margin-left: 32vw;
+}
+.taskBox h3{
+margin-top:17px;
+text-align: left;
+width: 67%;
+font-weight:300;
+line-break:anywhere;}
+#checkBtn,#add {
+    border-radius: 200px;
+    border:#292e4e solid 1px;
+    background: transparent;
+    margin: 17px 10px 0;
+    height: 20px;
+    width: 21px;
+    color: #d4d4d4;
+
+}
+#btn{
+    background-color:transparent;
+    border: none;
+    color:#292e4e ;
+    padding: 5px;
+    margin: 14px 5px;
+}
+button{
+    cursor: pointer;
+}
+.notDone{
+    display:none;
+}
+.done{
+    height:100%;
+    margin-left:-0.33vw;
+    color:#292e4e;
+}
